@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,700;1,200;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
-    <title>¿Qué hacemos hoy?</title>
+    <title>Planeemos tu salida de hoy</title>
 </head>
 
 <body>
     <section id="welcomeModal" class="overlay">
         <div class="modal">
-            <h1>¿Qué hacemos hoy?</h1>
+            <h1>¿Hoy qué hacemos?</h1>
             <p>Escoge tu ciudad para obtener las recomendaciones:</p>
             <form id="location-form" class="location-form">
                 <select id="location-select" name="location">
@@ -25,6 +25,43 @@
             </form>
         </div>
     </section>
+
+    <header class="header">
+        <div id="title-container">
+            <h1 id="page-title">¿Hoy qué hacemos?</h1>
+        </div>
+        <div class="city">
+            <img src="./assets/cl_flag.png" alt="Chile">
+            <span id="">Santiago</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="recommendations" id="recoFeed">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/generic_card.jpg" alt="Generic place" class="cover">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium
+                        lectus in mi accumsan, vel vestibulum ipsum pharetra.</p>
+                    <a href="#" class="card-link">Read more</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/generic_card.jpg" alt="Generic place" class="cover">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium
+                        lectus in mi accumsan, vel vestibulum ipsum pharetra.</p>
+                    <a href="#" class="card-link">Read more</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="./js/main.js"></script>
 </body>
