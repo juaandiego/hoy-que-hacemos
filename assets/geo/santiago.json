@@ -1,0 +1,360 @@
+[
+    {
+        "name": "Buin",
+        "lng": -70.75,
+        "lat": -33.7333333,
+        "preferredRadius": 25000,
+        "id": 31
+    },
+    {
+        "name": "Calera de Tango",
+        "lng": -70.8166667,
+        "lat": -33.65,
+        "preferredRadius": 25000,
+        "id": 22
+    },
+    {
+        "name": "Cerrillos",
+        "lng": -70.7,
+        "lat": -33.4833333,
+        "preferredRadius": 20000,
+        "id": 50
+    },
+    {
+        "name": "Cerro Navia",
+        "lng": -70.7166667,
+        "lat": -33.4166667,
+        "preferredRadius": 20000,
+        "id": 1
+    },
+    {
+        "name": "Colina",
+        "lng": -70.6833333,
+        "lat": -33.2,
+        "preferredRadius": 20000,
+        "id": 33
+    },
+    {
+        "name": "Conchalí",
+        "lng": -70.6166667,
+        "lat": -33.35,
+        "preferredRadius": 20000,
+        "id": 49
+    },
+    {
+        "name": "Curacaví",
+        "lng": -71.15,
+        "lat": -33.4,
+        "preferredRadius": 25000,
+        "id": 20
+    },
+    {
+        "name": "El Bosque",
+        "lng": -70.7,
+        "lat": -33.5666667,
+        "preferredRadius": 20000,
+        "id": 2
+    },
+    {
+        "name": "El Monte",
+        "lng": -71.0166667,
+        "lat": -33.6833333,
+        "preferredRadius": 25000,
+        "id": 18
+    },
+    {
+        "name": "Estación Central",
+        "lng": -70.702976,
+        "lat": -33.463315,
+        "preferredRadius": 10000,
+        "id": 48
+    },
+    {
+        "name": "Huechuraba",
+        "lng": -70.6666667,
+        "lat": -33.35,
+        "preferredRadius": 20000,
+        "id": 3
+    },
+    {
+        "name": "Independencia",
+        "lng": -70.654932,
+        "lat": -33.421988,
+        "preferredRadius": 15000,
+        "id": 47
+    },
+    {
+        "name": "Isla de Maipo",
+        "lng": -70.9,
+        "lat": -33.75,
+        "preferredRadius": 25000,
+        "id": 27
+    },
+    {
+        "name": "La Cisterna",
+        "lng": -70.6833333,
+        "lat": -33.55,
+        "preferredRadius": 20000,
+        "id": 4
+    },
+    {
+        "name": "La Florida",
+        "lng": -70.5666667,
+        "lat": -33.55,
+        "preferredRadius": 15000,
+        "id": 46
+    },
+    {
+        "name": "La Granja",
+        "lng": -70.5833333,
+        "lat": -33.5833333,
+        "preferredRadius": 20000,
+        "id": 5
+    },
+    {
+        "name": "La Pintana",
+        "lng": -70.6166667,
+        "lat": -33.5833333,
+        "preferredRadius": 20000,
+        "id": 45
+    },
+    {
+        "name": "La Reina",
+        "lng": -70.55,
+        "lat": -33.45,
+        "preferredRadius": 10000,
+        "id": 6
+    },
+    {
+        "name": "Lampa",
+        "lng": -70.9,
+        "lat": -33.2833333,
+        "preferredRadius": 25000,
+        "id": 24
+    },
+    {
+        "name": "Las Condes",
+        "lng": -70.5833333,
+        "lat": -33.4166667,
+        "preferredRadius": 10000,
+        "id": 44
+    },
+    {
+        "name": "Lo Barnechea",
+        "lng": -70.5166667,
+        "lat": -33.35,
+        "preferredRadius": 20000,
+        "id": 7
+    },
+    {
+        "name": "Lo Espejo",
+        "lng": -70.7166667,
+        "lat": -33.5333333,
+        "preferredRadius": 20000,
+        "id": 43
+    },
+    {
+        "name": "Lo Prado",
+        "lng": -70.7166667,
+        "lat": -33.4333333,
+        "preferredRadius": 10000,
+        "id": 8
+    },
+    {
+        "name": "Macul",
+        "lng": -70.5666667,
+        "lat": -33.5,
+        "preferredRadius": 10000,
+        "id": 42
+    },
+    {
+        "name": "Maipú",
+        "lng": -70.7666667,
+        "lat": -33.5166667,
+        "preferredRadius": 20000,
+        "id": 9
+    },
+    {
+        "name": "María Pinto",
+        "lng": -71.1333333,
+        "lat": -33.5333333,
+        "preferredRadius": 25000,
+        "id": 29
+    },
+    {
+        "name": "Melipilla",
+        "lng": -71.2166667,
+        "lat": -33.7,
+        "preferredRadius": 25000,
+        "id": 21
+    },
+    {
+        "name": "Ñuñoa",
+        "lng": -70.6,
+        "lat": -33.4666667,
+        "preferredRadius": 10000,
+        "id": 41
+    },
+    {
+        "name": "Padre Hurtado",
+        "lng": -70.8333333,
+        "lat": -33.5666667,
+        "preferredRadius": 25000,
+        "id": 17
+    },
+    {
+        "name": "Paine",
+        "lng": -70.75,
+        "lat": -33.8166667,
+        "preferredRadius": 25000,
+        "id": 30
+    },
+    {
+        "name": "Pedro Aguirre Cerda",
+        "lng": -70.678086,
+        "lat": -33.492455,
+        "preferredRadius": 10000,
+        "id": 10
+    },
+    {
+        "name": "Peñaflor",
+        "lng": -70.9166667,
+        "lat": -33.6166667,
+        "preferredRadius": 25000,
+        "id": 26
+    },
+    {
+        "name": "Peñalolén",
+        "lng": -70.5333333,
+        "lat": -33.4833333,
+        "preferredRadius": 10000,
+        "id": 40
+    },
+    {
+        "name": "Pirque",
+        "lng": -70.55,
+        "lat": -33.6333333,
+        "preferredRadius": 25000,
+        "id": 34
+    },
+    {
+        "name": "Providencia",
+        "lng": -70.6166667,
+        "lat": -33.4333333,
+        "preferredRadius": 10000,
+        "id": 11,
+        "default": true
+    },
+    {
+        "name": "Pudahuel",
+        "lng": -70.7166667,
+        "lat": -33.4333333,
+        "preferredRadius": 20000,
+        "id": 39
+    },
+    {
+        "name": "Puente Alto",
+        "lng": -70.5833333,
+        "lat": -33.6166667,
+        "preferredRadius": 20000,
+        "id": 16
+    },
+    {
+        "name": "Quilicura",
+        "lng": -70.75,
+        "lat": -33.3666667,
+        "preferredRadius": 20000,
+        "id": 12
+    },
+    {
+        "name": "Quinta Normal",
+        "lng": -70.7,
+        "lat": -33.45,
+        "preferredRadius": 10000,
+        "id": 38
+    },
+    {
+        "name": "Recoleta",
+        "lng": -33.408148,
+        "lat": -70.639192,
+        "preferredRadius": 10000,
+        "id": 13
+    },
+    {
+        "name": "Renca",
+        "lng": -70.7333333,
+        "lat": -33.4,
+        "preferredRadius": 20000,
+        "id": 37
+    },
+    {
+        "name": "San Bernardo",
+        "lng": -70.7166667,
+        "lat": -33.6,
+        "preferredRadius": 20000,
+        "id": 23
+    },
+    {
+        "name": "San Joaquín",
+        "lng": -70.6166667,
+        "lat": -33.5,
+        "preferredRadius": 10000,
+        "id": 14
+    },
+    {
+        "name": "San José de Maipo",
+        "lng": -70.3666667,
+        "lat": -33.6333333,
+        "preferredRadius": 25000,
+        "id": 25
+    },
+    {
+        "name": "San Miguel",
+        "lng": -70.6666667,
+        "lat": -33.5,
+        "preferredRadius": 10000,
+        "id": 36
+    },
+    {
+        "name": "San Pedro",
+        "lng": -71.4666667,
+        "lat": -33.9,
+        "preferredRadius": 25000,
+        "id": 19
+    },
+    {
+        "name": "San Ramón",
+        "lng": -70.5,
+        "lat": -33.45,
+        "preferredRadius": 20000,
+        "id": 15
+    },
+    {
+        "name": "Santiago",
+        "lng": -70.6666667,
+        "lat": -33.45,
+        "preferredRadius": 10000,
+        "id": 0
+    },
+    {
+        "name": "Talagante",
+        "lng": -70.9333333,
+        "lat": -33.6666667,
+        "preferredRadius": 25000,
+        "id": 28
+    },
+    {
+        "name": "Tiltil",
+        "lng": -70.9333333,
+        "lat": -33.0833333,
+        "preferredRadius": 25000,
+        "id": 32
+    },
+    {
+        "name": "Vitacura",
+        "lng": -70.6,
+        "lat": -33.4,
+        "preferredRadius": 10000,
+        "id": 35
+    }
+]

@@ -15,6 +15,17 @@
     display: inline;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.d-ib {
+    display: inline-block;
+}
+
+.d-auto {
+    display: initial;
+}
 
 /* General configs */
 body {
@@ -92,13 +103,18 @@ select {
     background-color: #0d47a1;
 }
 
+.location-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 
 /* Header */
 header.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #410766;
+    background-color: #7a18db;
     height: 100px;
     padding: 0 20px;
     color: #fff;
@@ -140,6 +156,7 @@ header.header {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     margin-bottom: 30px;
+    border-radius: 0.5rem;
 }
 
 .card .card-image {
@@ -173,6 +190,32 @@ header.header {
     margin-top: auto;
     margin-right: 10px;
     font-weight: bold;
+    color: #68a4ff;
+    text-decoration: none;
+}
+
+.rating {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.fas {
+    font-style: normal;
+}
+
+.fas,
+.fa-star {
+    color: #ffc107;
+}
+
+.fa-star-o {
+    color: #ccc;
+}
+
+.rating .in-nums {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
 }
 
 /* For md resolutions */
