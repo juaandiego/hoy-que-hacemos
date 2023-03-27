@@ -1,0 +1,387 @@
+[
+    {
+        "Id": 0,
+        "lng": -58.48867266,
+        "lat": -34.59294472,
+        "name": "Agronomía",
+        "comuna": 15,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 1,
+        "lng": -58.42174452,
+        "lat": -34.60922726,
+        "name": "Almagro",
+        "comuna": 5,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 2,
+        "lng": -58.40306169,
+        "lat": -34.6090994,
+        "name": "Balvanera",
+        "comuna": 3,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 3,
+        "lng": -58.38427181,
+        "lat": -34.64640271,
+        "name": "Barracas",
+        "comuna": 4,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 4,
+        "lng": -58.45024143,
+        "lat": -34.55476263,
+        "name": "Belgrano",
+        "comuna": 13,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 5,
+        "lng": -58.35681932,
+        "lat": -34.63107048,
+        "name": "Boca",
+        "comuna": 4,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 6,
+        "lng": -58.41883954,
+        "lat": -34.62995992,
+        "name": "Boedo",
+        "comuna": 5,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 7,
+        "lng": -58.44360306,
+        "lat": -34.61682542,
+        "name": "Caballito",
+        "comuna": 6,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 8,
+        "lng": -58.45418012,
+        "lat": -34.58836866,
+        "name": "Chacarita",
+        "comuna": 15,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 9,
+        "lng": -58.47494433,
+        "lat": -34.56062377,
+        "name": "Coghlan",
+        "comuna": 12,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 10,
+        "lng": -58.45096795,
+        "lat": -34.57464156,
+        "name": "Colegiales",
+        "comuna": 13,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 11,
+        "lng": -58.38438812,
+        "lat": -34.62504411,
+        "name": "Constitución",
+        "comuna": 1,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 12,
+        "lng": -58.45826804,
+        "lat": -34.63680312,
+        "name": "Flores",
+        "comuna": 7,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 13,
+        "lng": -58.48358753,
+        "lat": -34.62768578,
+        "name": "Floresta",
+        "comuna": 10,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 14,
+        "lng": -58.51912811,
+        "lat": -34.64379602,
+        "name": "Liniers",
+        "comuna": 9,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 15,
+        "lng": -58.50173703,
+        "lat": -34.65837345,
+        "name": "Mataderos",
+        "comuna": 9,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 16,
+        "lng": -58.37964847,
+        "lat": -34.61268563,
+        "name": "Monserrat",
+        "comuna": 1,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 17,
+        "lng": -58.50658095,
+        "lat": -34.61929776,
+        "name": "Monte Castro",
+        "comuna": 10,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 18,
+        "lng": -58.41888244,
+        "lat": -34.65051508,
+        "name": "Nueva Pompeya",
+        "comuna": 4,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 19,
+        "lng": -58.46275078,
+        "lat": -34.54348142,
+        "name": "Núñez",
+        "comuna": 13,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 20,
+        "lng": -58.42234154,
+        "lat": -34.573855,
+        "name": "Palermo",
+        "comuna": 14,
+        "preferredRadius": 10000,
+        "default": true
+    },
+    {
+        "Id": 21,
+        "lng": -58.47645528,
+        "lat": -34.64864159,
+        "name": "Parque Avellaneda",
+        "comuna": 9,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 22,
+        "lng": -58.43769584,
+        "lat": -34.63593994,
+        "name": "Parque Chacabuco",
+        "comuna": 7,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 23,
+        "lng": -58.47912136,
+        "lat": -34.58552269,
+        "name": "Parque Chas",
+        "comuna": 15,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 24,
+        "lng": -58.40167494,
+        "lat": -34.63755045,
+        "name": "Parque Patricios",
+        "comuna": 4,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 25,
+        "lng": -58.46866484,
+        "lat": -34.59742118,
+        "name": "Paternal",
+        "comuna": 15,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 26,
+        "lng": -58.35568898,
+        "lat": -34.60904966,
+        "name": "Puerto Madero",
+        "comuna": 1,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 27,
+        "lng": -58.39492934,
+        "lat": -34.58577819,
+        "name": "Recoleta",
+        "comuna": 2,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 28,
+        "lng": -58.37599361,
+        "lat": -34.58839659,
+        "name": "Retiro",
+        "comuna": 1,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 29,
+        "lng": -58.4887446,
+        "lat": -34.55307606,
+        "name": "Saavedra",
+        "comuna": 12,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 30,
+        "lng": -58.40188403,
+        "lat": -34.6238645,
+        "name": "San Cristóbal",
+        "comuna": 3,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 31,
+        "lng": -58.38051517,
+        "lat": -34.60366599,
+        "name": "San Nicolás",
+        "comuna": 1,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 32,
+        "lng": -58.37154103,
+        "lat": -34.62152047,
+        "name": "San Telmo",
+        "comuna": 1,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 33,
+        "lng": -58.49327669,
+        "lat": -34.63136139,
+        "name": "Vélez Sarsfield",
+        "comuna": 10,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 34,
+        "lng": -58.52241724,
+        "lat": -34.63012294,
+        "name": "Versalles",
+        "comuna": 10,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 35,
+        "lng": -58.44272495,
+        "lat": -34.59882967,
+        "name": "Villa Crespo",
+        "comuna": 15,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 36,
+        "lng": -58.49067708,
+        "lat": -34.60424664,
+        "name": "Villa Del Parque",
+        "comuna": 11,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 37,
+        "lng": -58.51428246,
+        "lat": -34.60235465,
+        "name": "Villa Devoto",
+        "comuna": 11,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 38,
+        "lng": -58.46894292,
+        "lat": -34.6100287,
+        "name": "Villa Gral. Mitre",
+        "comuna": 11,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 39,
+        "lng": -58.47616703,
+        "lat": -34.67499311,
+        "name": "Villa Lugano",
+        "comuna": 8,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 40,
+        "lng": -58.50272906,
+        "lat": -34.63641326,
+        "name": "Villa Luro",
+        "comuna": 10,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 41,
+        "lng": -58.46765121,
+        "lat": -34.58097343,
+        "name": "Villa Ortúzar",
+        "comuna": 15,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 42,
+        "lng": -58.50349866,
+        "lat": -34.58210304,
+        "name": "Villa Pueyrredón",
+        "comuna": 12,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 43,
+        "lng": -58.52603869,
+        "lat": -34.61949319,
+        "name": "Villa Real",
+        "comuna": 10,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 44,
+        "lng": -58.46335014,
+        "lat": -34.69185762,
+        "name": "Villa Riachuelo",
+        "comuna": 8,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 45,
+        "lng": -58.48295679,
+        "lat": -34.61619346,
+        "name": "Villa Santa Rita",
+        "comuna": 11,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 46,
+        "lng": -58.4465868,
+        "lat": -34.66542128,
+        "name": "Villa Soldati",
+        "comuna": 8,
+        "preferredRadius": 10000
+    },
+    {
+        "Id": 47,
+        "lng": -58.4878555,
+        "lat": -34.57154052,
+        "name": "Villa Urquiza",
+        "comuna": 12,
+        "preferredRadius": 10000
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "type": "amusement_park",
+        "likeliness": 1,
+        "repeat": 1
+    },
+    {
+        "type": "art_gallery",
+        "likeliness": 5,
+        "repeat": 1
+    },
+    {
+        "type": "bakery",
+        "likeliness": 25,
+        "repeat": 2
+    },
+    {
+        "type": "bar",
+        "likeliness": 40,
+        "repeat": 1
+    },
+    {
+        "type": "book_store",
+        "likeliness": 5,
+        "repeat": 1
+    },
+    {
+        "type": "bowling_alley",
+        "likeliness": 3,
+        "repeat": 1
+    },
+    {
+        "type": "cafe",
+        "likeliness": 40,
+        "repeat": 2
+    },
+    {
+        "type": "casino",
+        "likeliness": 1,
+        "repeat": 1
+    },
+    {
+        "type": "department_store",
+        "likeliness": 20,
+        "repeat": 1
+    },
+    {
+        "type": "furniture_store",
+        "likeliness": 3,
+        "repeat": 1
+    },
+    {
+        "type": "library",
+        "likeliness": 10,
+        "repeat": 1
+    },
+    {
+        "type": "meal_takeaway",
+        "likeliness": 1,
+        "repeat": 1
+    },
+    {
+        "type": "movie_theater",
+        "likeliness": 25,
+        "repeat": 1
+    },
+    {
+        "type": "museum",
+        "likeliness": 20,
+        "repeat": 1
+    },
+    {
+        "type": "night_club",
+        "likeliness": 25,
+        "repeat": 1
+    },
+    {
+        "type": "park",
+        "likeliness": 20,
+        "repeat": 1
+    },
+    {
+        "type": "restaurant",
+        "likeliness": 100,
+        "repeat": 2
+    },
+    {
+        "type": "shopping_mall",
+        "likeliness": 20,
+        "repeat": 1
+    },
+    {
+        "type": "spa",
+        "likeliness": 5,
+        "repeat": 1
+    },
+    {
+        "type": "tourist_attraction",
+        "likeliness": 10,
+        "repeat": 1
+    },
+    {
+        "type": "zoo",
+        "likeliness": 1,
+        "repeat": 1
+    }
+]

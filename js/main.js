@@ -1,3 +1,7 @@
+/* Keys */
+import { placesKey } from "./keys.js";
+
+
 /* Elements and identifiers */
 const locationModal = document.querySelector("#welcomeModal");
 const locationForm = document.getElementById("location-form");
@@ -32,46 +36,57 @@ function handleVisibility(e, targetVisibility, targetDisplay = "inline") {
     }
 }
 
-function handleLocationForm() {
+async function handleLocationForm() {
+    areaSelect.innerHTML = "";
     areaSelect.setAttribute("disabled", "disabled");
     locationSubmit.setAttribute("disabled", "disabled");
     handleVisibility(areaSelect, "hide");
 
     const city = locationSelect.value;
     if (city) {
-        handleVisibility(areaSelect, "show");
-        areaSelect.removeAttribute("disabled");
-        getAreaList(city);
-        locationSubmit.removeAttribute("disabled");
+        const areas = await getAreaList(city);
+
+        if (areas && areas.length > 0) {
+            handleVisibility(areaSelect, "show");
+            areaSelect.removeAttribute("disabled");
+            locationSubmit.removeAttribute("disabled");
+
+            for (const area of areas) {
+                const option = document.createElement("option");
+                option.value = area.id;
+                option.innerText = area.name;
+                if (area.default === true) { option.setAttribute("selected", "selected") }
+                areaSelect.appendChild(option);
+            }
+        }
+    }
+}
+
+async function getAreaList(city) {
+    const url = `./assets/geo/${city}.json`;
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`Failed to fetch nearby places: ${response.status} ${response.statusText}`);
+        }
+        return response.json();
+    } catch (error) {
+        console.error('Error retrieving area list:', error);
+        return null;
     }
 }
 
 
 /* Data/Recos loading and rendering */
-async function getAreaList(city) {
-    const url = `./assets/geo/${city}.json`;
-    const response = await fetch(url);
-    if (!response.ok) {
-        throw new Error(`
-            Failed to fetch nearby places:
-            ${response.status} ${response.statusText}
-        `);
-    }
-    const areas = await response.json();
-
-    areaSelect.innerHTML = "";
-    handleVisibility(areaSelect, "show", "inline");
-    for (const area of areas) {
-        const option = document.createElement("option");
-        option.value = area.id;
-        option.innerText = area.name;
-        if (area.default === true) { option.setAttribute("selected", "selected") }
-        areaSelect.appendChild(option);
-    }
-}
-
 async function getNearbyPlaces(location, radius, type, key) {
-    const url = `./tests/nearbyplaces.json`;
+    // const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json
+    // ?language=es-419,
+    // &location=${}%2C${}
+    // &radius=${}
+    // &type=restaurant
+    // &key=YOUR_API_KEY`;
+
+    const url = `./assets/geo/${city}.json`;
     const response = await fetch(url);
     if (!response.ok) {
         throw new Error(`
@@ -185,8 +200,8 @@ const initializeAll = async (place) => {
 
 
 /* Listeners and executions */
-document.addEventListener("DOMContentLoaded", handleLocationForm);
-locationSelect.addEventListener("change", handleLocationForm);
+document.addEventListener("DOMContentLoaded", (e) => { handleLocationForm(); });
+locationSelect.addEventListener("change", (e) => { handleLocationForm(); });
 
 locationForm.addEventListener("submit", (e) => {
     e.preventDefault();

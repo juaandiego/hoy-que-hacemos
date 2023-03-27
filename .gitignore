@@ -1,3 +1,7 @@
 /tests
 /tests/*
+/node_modules
+/node_modules/*
+/js/keys.js
 .DS_STORE
+.env
